@@ -6,8 +6,12 @@ import {
   MailOutlined,
   PhoneTwoTone,
   HomeOutlined,
+  ReadOutlined,
+  TeamOutlined,
+  ForkOutlined
 } from "@ant-design/icons";
 import HomeIndex from "./home/index";
+import TeamIndex from "./team/index";
 import {
   Navigate,
   Route,
@@ -15,6 +19,12 @@ import {
   useNavigate,
   useRouteLoaderData,
 } from "react-router-dom";
+import NewsTemplate from "./components/newstemplate";
+import RoadmapIndex from "./roadmap";
+import BlogIndex from "./blog";
+import ContactIndex from "./contact";
+import SolarPanelPage from "./products/solarpanel";
+import LightsPage from "./products/lights";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -52,6 +62,37 @@ const items: MenuItem[] = [
       },
     ],
   },
+  {
+    key: "team",
+    label: "Team",
+    icon: <TeamOutlined style={{ fontSize: "25px", color: "skyblue" }} />,
+    /* label: (
+      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+        Contact Us
+      </a>
+    ), */
+  },
+  {
+    key: "roadmap",
+    label: "Roadmap",
+    icon: <ForkOutlined style={{ fontSize: "25px", color: "skyblue" }} />,
+    /* label: (
+      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+        Contact Us
+      </a>
+    ), */
+  },
+  {
+    key: "blog",
+    label: "Blog",
+    icon: <ReadOutlined style={{ fontSize: "25px", color: "skyblue" }} />,
+    /* label: (
+      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+        Contact Us
+      </a>
+    ), */
+  },
+  
   {
     key: "Contact",
     label: "Contact Us",
@@ -102,8 +143,14 @@ export default function Main() {
         <Routes>
           <Route path="/" element={<Navigate to="/Home" />}></Route>
           <Route path="/Home" element={<HomeIndex />} />
-          <Route path="/Products/SolarPanel" element={<HomeIndex />} />
-          <Route path="/Products/Lights" element={<HomeIndex />} />
+          <Route path="/Products/SolarPanel" element={<SolarPanelPage />} />
+          <Route path="/Products/Lights" element={<LightsPage />} />
+          <Route path="/Team" element={<TeamIndex />} />
+          <Route path="/Roadmap" element={<RoadmapIndex />} />
+          <Route path="/Blog" element={<BlogIndex />} />
+          <Route path="/Contact" element={<ContactIndex />} />          
+          <Route path="/News/:newsid" element={<NewsTemplate/>} />
+          <Route path="/Blog/:newsid" element={<NewsTemplate/>} />
         </Routes>
       </Flex>
       <Footer style={{ textAlign: "center" }}>

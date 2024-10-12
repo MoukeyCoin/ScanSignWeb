@@ -8,7 +8,7 @@ export default function TeamIndex() {
         <Card
           hoverable //鼠标移过时可浮起
           style={{ width: 380, marginTop: 20, height: 610 }}
-          cover={<img alt="example" src="./web/team/longhe.jpg" height={390} />}
+          cover={<img alt="example" src="https://safehomecam.com/files/team/longhe.jpg" height={390} />}
         >
           <Meta
             title={
@@ -29,7 +29,7 @@ export default function TeamIndex() {
         <Card
           hoverable //鼠标移过时可浮起
           style={{ width: 380, margin: 20, height: 610 }}
-          cover={<img alt="example" src="./web/team/moukey.jpg" height={390}/>}
+          cover={<img alt="example" src="https://safehomecam.com/files/team/moukey.jpg" height={390}/>}
         >
           <Meta
             title={
@@ -49,7 +49,7 @@ export default function TeamIndex() {
         <Card
           hoverable //鼠标移过时可浮起
           style={{ width: 380, margin: 20, height: 610 }}
-          cover={<img alt="example" src="./web/team/xiangwang.jpg" height={390}/> }
+          cover={<img alt="example" src="https://safehomecam.com/files/team/xiangwang.jpg" height={390}/> }
         >
           <Meta
             title={
@@ -68,7 +68,7 @@ export default function TeamIndex() {
         <Card
           hoverable //鼠标移过时可浮起
           style={{ width: 380, margin: 20, height: 610 }}
-          cover={<img alt="example" src="./web/team/datare.jpg" height={390}/>}
+          cover={<img alt="example" src="https://safehomecam.com/files/team/datare.jpg" height={390}/>}
         >
           <Meta
             title={

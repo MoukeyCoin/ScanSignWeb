@@ -78,7 +78,7 @@ export default function HomeIndex() {
           </Typography>
         </Flex>
         <Flex style={{ alignSelf: "center" }}>
-          <Image src="./web/home/step.png" preview={false} />
+          <Image src="https://safehomecam.com/files/home/step.png" preview={false} />
         </Flex>
       </Flex>
       <Divider />
@@ -256,7 +256,7 @@ export default function HomeIndex() {
           </Flex>
         </Flex>
         <Flex vertical={false} style={{ alignSelf: "center" }}>
-          <Image src="./web/home/realestate.png" preview={false} style={{ width:"100%" }} />
+          <Image src="https://safehomecam.com/files/home/realestate.png" preview={false} style={{ width:"100%" }} />
         </Flex>
       </div>
     </Layout>

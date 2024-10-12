@@ -10,7 +10,7 @@ export default function RoadmapIndex() {
       wrap="wrap"
     >
       <Flex>
-        <Image src="./web/roadmap/roadmap.png" preview={false} />
+        <Image src="https://safehomecam.com/files/roadmap/roadmap.png" preview={false} />
       </Flex>
     </Flex>
   );

@@ -21,7 +21,7 @@ const lightlist = [
       cover: "./web/products/lights_3.png",
       subtitle:"US $39.99",
       description:"JSOT Solar Gutter Lights for Outside Decor, Solar Fence Lights Outdoor Waterproof Yard Lights, 2 Installations Methods for Deck Garden Porch Garage Stairs Wall Patio backyard - Warm White, 6 Pack",
-      link:"https://www.amazon.com/LUHLEE-Outdoor-Waterproof-Lighting-Commercial/dp/B0CCDS1WM9/ref=sr_1_3?crid=27MN8Q3H55KZJ&dib=eyJ2IjoiMSJ9.L0XK3VGwoe-B_kxqFqiGwT91pzTUkiNgmR6-Z1AEp15eH5lX8zSLFu4tjA1RhZDzxT1v2lGgphP22P8LZdVDqfwSV6URAFGQery7yLNObp8qnQYabWsON5LUHwURPWqCpT4TeUPn3jv3DcAQw6DljltP0pj-JRvxEXmr_f5v60ryG118BKqXBKQ9eHVI-gj6bWsDeLmEtxaOy7saCTFrqCqvHM5HjdUGtR0RdfzQ9uH3ltZ2Afg3655dWDMh0hEEu5HO9DnfhTlkoz3gGGITN4uL02EwL36JH8yfrWRcZfg.FKLkg5Tb9oGUyW3vUJ_A07fa0jrVPHpwEAhqLCc_nS4&dib_tag=se&keywords=solar%2Blight%2Bfor%2Breal%2Bestate%2Bsign&qid=1721100017&sprefix=solar%2Blight%2Bfor%2Bre%2Caps%2C382&sr=8-3&th=1"
+      link:"https://www.amazon.com/JSOT-Gutter-Outdoor-Waterproof-Driveway/dp/B07WPJBN2H/ref=sr_1_38?crid=27MN8Q3H55KZJ&dib=eyJ2IjoiMSJ9.L0XK3VGwoe-B_kxqFqiGwT91pzTUkiNgmR6-Z1AEp15eH5lX8zSLFu4tjA1RhZDzDgu-l1mYa89m9cqAwV3iE7tGNWl6BDIF9KRRnSMGh92WKKnq3rdZ_PLuNlvLIOWxpT4TeUPn3jv3DcAQw6Dljt4gxmaMyhwzMLYCB_7DjROI2y0CUpNYm9VrY4jM6-pkbWsDeLmEtxaOy7saCTFrqCqvHM5HjdUGtR0RdfzQ9uH3ltZ2Afg3655dWDMh0hEEu5HO9DnfhTlkoz3gGGITN0TDL6AsFIMnSYcyK1ajDxk.Bz50QhqsI1Fx3fTzmHyguKEMCjJYDTUyVhHnsxSJ8fw&dib_tag=se&keywords=solar%2Blight%2Bfor%2Breal%2Bestate%2Bsign&qid=1721111061&sprefix=solar%2Blight%2Bfor%2Bre%2Caps%2C382&sr=8-38&th=1"
     },
   ];
   export  default lightlist

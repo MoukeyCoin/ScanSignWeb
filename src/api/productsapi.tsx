@@ -21,6 +21,26 @@ export async function reqGetAllProduct() {
     }
 };
 
+export async function reqUploadFile(file: File) {
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+      
+      const response = await fetch(process.env.REACT_APP_FILE_URL + "upload", {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      return await response.json();
+    } catch (error) {
+      console.error('Error:', error);
+      throw error;
+    }
+};
 export async function reqGetProductbyFilter(filterParams:any) {
     try {
       const response = await fetch(productapi + "?action=selectbyfilters" , {

@@ -151,6 +151,7 @@ export default function Main() {
           <Route path="/Contact" element={<ContactIndex />} />          
           <Route path="/News/:newsid" element={<NewsTemplate/>} />
           <Route path="/Blog/:newsid" element={<NewsTemplate/>} />
+          <Route path="/Uploadfile/" element={<NewsTemplate/>} />
         </Routes>
       </Flex>
       <Footer style={{ textAlign: "center" }}>

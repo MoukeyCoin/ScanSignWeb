@@ -35,7 +35,7 @@ export default function TeamIndex() {
             title={
               <Flex style={{ display: "flex", flexDirection: "column" }}>
                 <Typography style={{ fontSize: 25 }}>Jie Mao</Typography>
-                <Typography style={{ fontSize: 20 }}>CoFounder / CIO</Typography>
+                <Typography style={{ fontSize: 20 }}>Software Engineer & Web Developer</Typography>
               </Flex>
             }
             description={
